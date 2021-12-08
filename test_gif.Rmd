@@ -1,0 +1,43 @@
+---
+title: "Thesis Presentation"
+subtitle: ""
+author: "Greg Papageorgiou"
+institute: "RStudio, PBC"
+date: "2016/12/12 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    self_contained: true
+    # includes:
+    #   after_body: "insert_logo.html"
+    css: ["default", "custom_thesis.css"]
+    lib_dir: libs
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    seal: false
+---
+
+```{r xaringanExtra-freezeframe, echo=FALSE}
+xaringanExtra:::use_freezeframe()
+```
+
+
+---
+
+# Joint Model 
+
+<center>
+<img src="Animations/JM_Classic/White_BG/animation_haz.gif">
+</center>
+
+---
+
+# Joint Model 
+
+<center>
+<img src="Animations/JM_Classic/White_BG/animation_obs.gif">
+</center>
+
+---

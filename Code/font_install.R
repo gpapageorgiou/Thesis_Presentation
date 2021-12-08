@@ -1,0 +1,21 @@
+library(gifski)
+library(dplyr)
+library(magrittr)
+#library(emo)
+library(ggplot2)
+library(extrafont)
+library(cowplot)
+#library(emojifont)
+library(purrr)
+
+font_import(paths = "D:\\gpapageorgiou\\myPresentations\\Thesis_Presentation\\Custom_Fonts\\")
+loadfonts(device = "win", quiet = TRUE)
+fonts()
+font_import(paths = "./Custom_Fonts/")
+font_import()
+
+remotes::install_version("Rttf2pt1", version = "1.3.8")
+library(extrafont)
+font_
+loadfonts(device = "win")
+fonts()

@@ -1,0 +1,110 @@
+/***************************************/
+/* FONT IMPORTS */
+/***************************************/
+@font-face {
+  font-family: 'ADAM.CG.PRO';
+  src: url('Custom_Fonts/ADAM.CG PRO.otf') format('opentype'); 
+} 
+
+/***************************************/
+/* Title Slide */
+/***************************************/
+
+.title-slide {
+  background: url(Media/Title_Page.jpg);
+  background-size: cover;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+/***************************************/
+/* SECTION TITLE */
+/***************************************/
+
+.section-title {
+    background: url(Media/Thesis_Section_Title_Page.jpg);
+    background-size: cover;
+}
+
+.section-title h1 {
+    font-family: 'ADAM.CG.PRO', cursive;
+    color: #fcfffd;
+    font-size: 60px !important;
+}
+
+.section-title h2 {
+    font-family: 'ADAM.CG.PRO', cursive;
+    color: #fcfffd;
+    font-size: 40px !important;
+}
+
+.section-title .remark-slide-number {
+  display: none;
+}
+
+
+/***************************************/
+/* CHANGE SLIDE H1 APPEARANCE */
+/***************************************/
+
+h1 {
+  font-family: 'ADAM.CG.PRO', cursive;
+  color: #2d4059;
+  font-size: 36px !important;
+}
+
+
+/***************************************/
+/* REMOVE PAGE NUMBERING FROM ALL SLIDES */
+/***************************************/
+.remark-slide-number {
+  display: none;
+}
+
+/***************************************/
+/* CHANGE BACKGROUND COLOR ALL SLIDES */
+/***************************************/
+.remark-slide-content {
+  background-color: #fcfffd;
+}
+
+/***************************************/
+/* CHANGE PARAGRAPH FONT */
+/***************************************/
+
+p {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2d4059;
+}
+
+/***************************************/
+/* CHANGE PULL LEFT BULLETS */
+/***************************************/
+
+.pull-left {
+  width: 80%;
+  margin-top: 100px;
+}
+
+/***************************************/
+/* CHANGE LIST BULLETS TEXT FONTS APPERANCE */
+/***************************************/
+
+li {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2d4059;
+}
+
+/***************************************/
+/* CHANGE LIST BULLETS SYMBOL COLOR */
+/***************************************/
+
+ul {
+  color: #2d4059;
+}
