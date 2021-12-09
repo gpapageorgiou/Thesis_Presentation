@@ -301,7 +301,7 @@ Risk is a continuous function that changes over time. It can increase, decrease 
 
 ???
 
-As we cannot measure risk directly itself, we monitor other markers repeatedly over time which can help us estimate it instead. 
+Since we cannot measure risk directly itself, we monitor other markers, repeatedly over time, which can help us estimate it instead. 
 
 However, these repeated measurements are subject to measurement error and are only fragments, snapshots of a continuous process that may change faster than we are able to measure it. 
 
