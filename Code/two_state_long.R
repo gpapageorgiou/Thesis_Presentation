@@ -56,6 +56,7 @@ ggplot() + geom_rect(data = d, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax =
   geom_text(aes(x = 30, y = 32.5, label = "Longitudinal Outcomes:"), size = 2, color = '#fcfffd', family = 'Proxima Nova', fontface = 'bold') + 
   geom_text(aes(x = 30, y = 30, label = "Pulmonary Gradient"), size = 2, color = '#fcfffd', family = 'Proxima Nova', fontface = 'bold') + 
   geom_text(aes(x = 30, y = 27.5, label = "Total Bilrubin"), size = 2, color = '#fcfffd', family = 'Proxima Nova', fontface = 'bold') + 
+  geom_text(aes(x = 30, y = 25, label = "..."), size = 2, color = '#fcfffd', family = 'Proxima Nova', fontface = 'bold') +
   geom_segment(data = dline, aes(x = 30, y = 40, xend = 30, yend = 55), size = 0.4, 
                arrow = arrow(length = unit(0.04, "npc")), color = '#2d4059') + 
   geom_segment(data = dline, aes(x = 30, y = 55, xend = 30, yend = 40), size = 0.4, 
@@ -64,4 +65,5 @@ ggplot() + geom_rect(data = d, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax =
 ggsave(filename = paste0('D:\\gpapageorgiou\\myPresentations\\Thesis_Presentation\\Static_Images\\Two_State_long.png'), 
        height = 648, width = 1280, units = 'px')
 
-
+ggsave(filename = paste0('D:\\gpapageorgiou\\Github_Repos\\Thesis_Presentation\\Static_Images\\Two_State_long.png'), 
+       height = 648, width = 1280, units = 'px')
