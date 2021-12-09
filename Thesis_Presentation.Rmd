@@ -266,7 +266,7 @@ While the two examples I described, sound and are very different in clinical ter
 
 ???
 
-In both situations we are dealing with a disease which may increase the risk for a negative healt related outcome. 
+In both situations we are dealing with a disease which may increase the risk for a negative health related outcome. 
 
 ---
 
@@ -277,7 +277,7 @@ In both situations we are dealing with a disease which may increase the risk for
 
 ???
 
-As soon as we diagnose the problem, we closely follow-up the patients and repeatedly monitor longitudinal outcomes that are predictive of their risk, and can help us manage these patients better and prevent negative outcomes for their health.
+As soon as we diagnose the problem, we start to closely follow-up the patients and record longitudinal outcomes that are associated with that risk as they have the potential to help us manage these patients better and prevent negative outcomes for their health.
 
 ---
 
@@ -301,7 +301,7 @@ Risk is a continuous function that changes over time. It can increase, decrease 
 
 ???
 
-As we cannot measure risk directly itself, we monitor other markers repeatedly over time which we believe can help us estimate that risk as they are closely associated with it. 
+As we cannot measure risk directly itself, we monitor other markers repeatedly over time which can help us estimate it instead. 
 
 However, these repeated measurements are subject to measurement error and are only fragments, snapshots of a continuous process that may change faster than we are able to measure it. 
 
@@ -315,7 +315,7 @@ However, these repeated measurements are subject to measurement error and are on
 
 ???
 
-We therefore use a specific class of statistical models, the mixed-effects models, to estimate the true underlying subject-specific trajectory as a continuous function of time.  
+We therefore use a specific class of statistical models, known as mixed-effects models, to estimate the true underlying subject-specific trajectory as a continuous function of time.  
 
 By doing so, we not only account for the measurement error but also for the fact that measurements from the same subjects are potentially more similar than measurements from different subjects.
 
@@ -357,7 +357,7 @@ This could mean that higher values of the longitudinal outcome translate to high
 
 Another option is to assume that the rate of increase or decrease of the longitudinal outcome at each time point, is associated with the risk at that same time point.
 
-This means that the speed in which the longitudinal outcome changes can tell us something about the risk.
+This means that the speed at which the longitudinal outcome changes can tell us something about the risk.
 
 ---
 
