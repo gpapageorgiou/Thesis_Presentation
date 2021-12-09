@@ -60,7 +60,23 @@ ggplot() + geom_rect(data = d, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax =
   geom_segment(data = dline, aes(x = 30, y = 40, xend = 30, yend = 55), size = 0.4, 
                arrow = arrow(length = unit(0.04, "npc")), color = '#2d4059') + 
   geom_segment(data = dline, aes(x = 30, y = 55, xend = 30, yend = 40), size = 0.4, 
-               arrow = arrow(length = unit(0.04, "npc")), color = '#2d4059')
+               arrow = arrow(length = unit(0.00, "npc")), color = '#2d4059') +
+  geom_segment(data = dline, aes(x = 30, y = 40, xend = 34, yend = 55), size = 0.4, 
+               arrow = arrow(length = unit(0.04, "npc")), color = '#2d4059') + 
+  geom_segment(data = dline, aes(x = 34, y = 55, xend = 30, yend = 40), size = 0.4, 
+               arrow = arrow(length = unit(0.00, "npc")), color = '#2d4059') + 
+  geom_segment(data = dline, aes(x = 30, y = 40, xend = 38, yend = 55), size = 0.4, 
+               arrow = arrow(length = unit(0.04, "npc")), color = '#2d4059') + 
+  geom_segment(data = dline, aes(x = 38, y = 55, xend = 30, yend = 40), size = 0.4, 
+               arrow = arrow(length = unit(0.00, "npc")), color = '#2d4059') + 
+  geom_segment(data = dline, aes(x = 30, y = 40, xend = 26, yend = 55), size = 0.4, 
+               arrow = arrow(length = unit(0.04, "npc")), color = '#2d4059') + 
+  geom_segment(data = dline, aes(x = 26, y = 55, xend = 30, yend = 40), size = 0.4, 
+               arrow = arrow(length = unit(0.00, "npc")), color = '#2d4059') + 
+  geom_segment(data = dline, aes(x = 30, y = 40, xend = 22, yend = 55), size = 0.4, 
+               arrow = arrow(length = unit(0.04, "npc")), color = '#2d4059') + 
+  geom_segment(data = dline, aes(x = 22, y = 55, xend = 30, yend = 40), size = 0.4, 
+               arrow = arrow(length = unit(0.00, "npc")), color = '#2d4059')
 
 ggsave(filename = paste0('D:\\gpapageorgiou\\myPresentations\\Thesis_Presentation\\Static_Images\\Two_State_long.png'), 
        height = 648, width = 1280, units = 'px')
