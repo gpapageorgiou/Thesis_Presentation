@@ -22,6 +22,7 @@ library(purrr)
 #font_import('./Custom_Fonts/')
 #fonts()
 #loadfonts()
+library(ggforce)
 
 d <- data.frame("xmin" = c(0, 45, 22.5), "xmax" = c(15, 60, 37.5), 
                 "ymin" = c(50, 50, 20), "ymax" = c(60, 60, 30))
@@ -34,7 +35,7 @@ dcurve <- data.frame("x1" = c(7.5, 37.4), "y1" = c(50, 25),
 ggplot() + geom_rect(data = d, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax), 
                      fill = "#fcfffd", color = '#2d4059', 
                      size = 0.4) + 
-  geom_text(aes(x = 7.5, y = 55, label = "Heart Disease"), size = 2, color = '#2d4059', family = 'Proxima Nova') +
+  geom_text(aes(x = 7.5, y = 55, label = "Heart Failure"), size = 2, color = '#2d4059', family = 'Proxima Nova') +
   geom_text(aes(x = 52.5, y = 55, label = "Transplantation / Death"), size = 2, color = '#2d4059', family = 'Proxima Nova') +
   geom_text(aes(x = 30, y = 25, label = "Complication"), size = 2, color = '#2d4059', family = 'Proxima Nova') +
   #geom_text(aes(x = 30, y = 52.5, label = '?'), size = 3, parse = FALSE) +
@@ -66,3 +67,5 @@ ggsave(filename = paste0('D:\\gpapageorgiou\\myPresentations\\Thesis_Presentatio
        height = 648, width = 1280, units = 'px')
 
 
+ggsave(filename = paste0('D:\\gpapageorgiou\\Github_Repos\\Thesis_Presentation\\Static_Images\\Three_State_lvad.png'), 
+       height = 648, width = 1280, units = 'px')
