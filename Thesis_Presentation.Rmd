@@ -74,7 +74,7 @@ The ideal flow of the blood depends mainly on the function of the four valves of
 
 ???
 
-This ideal flow of the blood, however, may be disrupted, causing our health to deteriorate and increase our risk of dying. Unfortunately, there are several causes for such disruptions such as:
+This ideal flow of the blood may be disrupted, however, causing our health to deteriorate and increase our risk of dying. Unfortunately, there are several causes for such disruptions such as:
 
 ---
 
@@ -94,7 +94,7 @@ Congenital <br>Heart <br> Disease <br> (CHD)
 
 ???
 
-Congenital Heart Disease, which is the most common type of congenital disability and refers to a broad spectrum of defects and symptoms.
+Congenital Heart Disease, which is the most common type of congenital disability and refers to a broad range of defects and symptoms.
 
 ---
 
@@ -122,7 +122,7 @@ Heart <br>Failure
 
 ???
 
-and Heart Failure, a chronic progressive condition in which the heart cannot fulfill the body's needs for blood and oxygen. 
+and Heart Failure, a chronic and progressive condition in which the heart cannot fulfill the body's needs for blood and oxygen. 
 
 ---
 
@@ -133,7 +133,7 @@ class: section-title, middle, center
 
 ???
 
-While Congenital Heart Disease and Heart failure are only two such examples, they may lead to a broad range of complications and health risks. 
+While Congenital Heart Disease and Heart failure are only two such examples, they may lead to many different complications and health risks. 
 
 Let me, therefore, describe in a bit more detail two of the studies that motivated our research and concern patients suffering from these two diseases . 
 
@@ -145,9 +145,9 @@ Let me, therefore, describe in a bit more detail two of the studies that motivat
 
 - <b>CHD</b>:
 
-  - 20% $\rightarrow$ RVOT complications: pulmonary atresia, pulmonary valve stenosis, tetralogy of fallot
+  - 20% $\rightarrow$ RVOT complications: pulmonary atresia, pulmonary valve stenosis, tetralogy of fallot.
 
-  - RVOT reconstruction with a <b>pulmonary valve replacement</b>
+  - RVOT reconstruction with a <b>pulmonary valve replacement</b>.
 ]
 
 ???
@@ -173,13 +173,13 @@ These patients will most likely undergo Right Ventricular Outflow Tract reconstr
 
 - <b>CHD</b>:
 
-  - 20% $\rightarrow$ RVOT complications: pulmonary atresia, pulmonary valve stenosis, tetralogy of fallot
+  - 20% $\rightarrow$ RVOT complications: pulmonary atresia, pulmonary valve stenosis, tetralogy of fallot.
 
-  - RVOT reconstruction with a <b>pulmonary valve replacement</b>
+  - RVOT reconstruction with a <b>pulmonary valve replacement</b>.
 
 - <b>ROSS patients</b>: 
 
-  - Pulmonary valve used as a transplant for the aortic valve
+  - Pulmonary valve used as a transplant for the aortic valve.
 
   - <b>Pulmonary valve replacement</b> needed for the pulmonary position.
 ]
@@ -202,15 +202,15 @@ That means that a substitute is then needed for the pulmonary position.
 
 - More than one replacements might be necessary during lifetime:
 
-  - Too early: $\rightarrow$ more replacements necessary
-  - Too late: $\rightarrow$ increased risk of dying
+  - Too early: $\rightarrow$ more replacements necessary.
+  - Too late: $\rightarrow$ increased risk of dying.
 ]
 
 ???
 
 These pulmonary valve replacements may not last forever and additional valve replacements might be necessary for these patients in the future. 
 
-Therefore, these patients are monitored closely over time. Measures such as their pulmonary gradient, a measure of the pressure with which the blood flows through the pulmonary valve are being recorded over time in order to assess whether additional interventions are necessary.
+Therefore, these patients are monitored closely over time. Measures such as their pulmonary gradient, which represents the pressure at which the blood flows through the pulmonary valve are being recorded over time in order to assess whether additional interventions are necessary.
 
 The timing of such interventions is crucial as if done too early then more replacements might be needed while if done too late the risk of dying increases.
 
@@ -223,9 +223,9 @@ The timing of such interventions is crucial as if done too early then more repla
 
 - High Risk of complications: thrombosis, embolic events, dialysis.
 
-- Liver function $\rightarrow$ monitor total bilirubin
+- Liver function $\rightarrow$ monitor total bilirubin.
 
-- Kidney function $\rightarrow$ monitor creatinine
+- Kidney function $\rightarrow$ monitor creatinine.
 
 - Left Ventricular Assist Device (LVAD).
 
@@ -237,7 +237,7 @@ The timing of such interventions is crucial as if done too early then more repla
 
 The second study concerns heart failure.
 
-End-stage heart failure patients are under high risk of several and serious complications such as thormbosis, embolic events and dialysis.
+End-stage heart failure patients are in high risk of several and serious complications such as thormbosis, embolic events and dialysis.
 
 Treating physicians follow these patients closely and collect biomarker measurements for their liver and kidney function and may consider to intervene with a Left Ventricular Assist Device.
 
@@ -256,7 +256,7 @@ class: section-title, middle, center
 
 ???
 
-While the two examples I described, sound and are very different in clinical terms, they also have a lot of features in common, when viewed from a statistical point of view. Let me explain what I mean.  
+While the two examples I described, seem and are very different in clinical terms, they also have a lot of features in common, when viewed from a statistical point of view. Let me explain what I mean.  
 
 ---
 
@@ -266,7 +266,7 @@ While the two examples I described, sound and are very different in clinical ter
 
 ???
 
-In both situations we are dealing with a disease which may increase the risk for a negative health related outcome. 
+In both situations we are dealing with a disease which may increase the risk for experiencing a negative health related outcome. 
 
 ---
 
@@ -277,7 +277,7 @@ In both situations we are dealing with a disease which may increase the risk for
 
 ???
 
-As soon as we diagnose the problem, we start to closely follow-up the patients and record longitudinal outcomes that are associated with that risk as they have the potential to help us manage these patients better and prevent negative outcomes for their health.
+As soon as we diagnose the problem, we start to follow-up the patient and record longitudinal outcomes that are associated with their risk as they have the potential to help us manage these patients better and prevent negative outcomes for their health.
 
 ---
 
@@ -301,7 +301,7 @@ Risk is a continuous function that changes over time. It can increase, decrease 
 
 ???
 
-Since we cannot measure risk directly itself, we monitor other markers, repeatedly over time, which can help us estimate it instead. 
+Since we cannot measure risk directly, we monitor other markers repeatedly over time, which can help us estimate it instead. 
 
 However, these repeated measurements are subject to measurement error and are only fragments, snapshots of a continuous process that may change faster than we are able to measure it. 
 
@@ -315,7 +315,7 @@ However, these repeated measurements are subject to measurement error and are on
 
 ???
 
-We therefore use a specific class of statistical models, known as mixed-effects models, to estimate the true underlying subject-specific trajectory as a continuous function of time.  
+We therefore use a specific class of statistical models, known as mixed-effects models, to recover the true underlying subject-specific trajectory which is also a continuous function of time.  
 
 By doing so, we not only account for the measurement error but also for the fact that measurements from the same subjects are potentially more similar than measurements from different subjects.
 
@@ -369,9 +369,9 @@ This means that the speed at which the longitudinal outcome changes can tell us 
 
 ???
 
-Finally, in other situations it might be more accurate to assume that the risk at a certain time point is associated with the area under the trajectory of the longitudinal outcome up to that time point.
+Finally, in other situations it might be more realistic to assume that the risk at a certain time point is associated with the area under the trajectory of the longitudinal outcome up to that time point.
 
-The area under the curve can also be viewed as the overall burden as it summarizes the whole history of the marker up to a specific time-point.
+The area under the curve can also be seen as the overall burden of the disease as it summarizes the whole history of the marker up to a specific time-point.
 
 ---
 
@@ -385,9 +385,9 @@ The area under the curve can also be viewed as the overall burden as it summariz
 
 After the form of the association between the two processes is established, we can use our estimates to predict the risk for new patients. 
 
-Most importantly we can do so dynamically as time is incorporated in our models. That is with every new measurement of the longitudinal outcome we can update our prediction for the risk accordingly. 
+Most importantly we can do so dynamically as time is incorporated in our models. This means that with every new measurement of the longitudinal outcome we can update our prediction for the risk accordingly. 
 
-Let me now highlight the contents of some of the chapters of my dissertation which concern extensions of the joint modeling framework I just outlined and applications to the datasets I briefly introduced.
+Let me now highlight the contents of some of the chapters of my dissertation which discuss extensions of the joint modeling framework I just outlined and applications to the datasets I briefly introduced.
 
 ---
 
@@ -398,7 +398,7 @@ class: section-title, middle, center
 
 ???
 
-PART I deals with the occurrence of intermediate events. 
+PART I of the dissertation deals with the occurrence of intermediate events. 
 
 ---
 
@@ -410,13 +410,13 @@ PART I deals with the occurrence of intermediate events.
 
 ???
 
-Let's go back to the pulmonary valve dataset and the measurements of the pulmonary gradient. 
+To undertsand what I mean with this term, let's go back to the pulmonary valve dataset and the repeated measurements of the pulmonary gradient. 
 
-What we observe here is that the pulmonary gradient of these patients is increasing over time. 
+What we observe here is that the pulmonary gradient of these patients is increasing over time, indicating higher pressure which suggests that the condition of the pulmonary valve is deteriorating.
 
-When it becomes too high this is an indication that an additional valve replacement might be necessary.
+When the gradient becomes too high this is an indication that an additional valve replacement might be necessary.
 
-After this re-operation the pulmonary gradient drops back to normal levels.
+After this re-operation takes place, the pulmonary gradient drops back to normal levels.
 
 In this case re-opereation is an intermediate event that changes the trajectory of the longitudinal outcome and reduces the risk of dying.
 
@@ -430,9 +430,10 @@ In this case re-opereation is an intermediate event that changes the trajectory 
 
 ???
 
-We therefore adapt the mixed-model accordingly so it is able to capture these changes under different scenarios regarding re-operation. 
+We therefore adapt our model accordingly so it is able to capture these changes under different scenarios with respect to re-operation. 
 
-That means that the true underlying trajectory of the pulmonary gradient will change after the occurrence of the intermediate event and will drop back to normal levels.
+This means that the trajectory of the longitudinal outcome, that we recover for each subject, will be different depending on <b>whether and when</b> re-operation took place.
+
 
 ---
 
@@ -445,7 +446,11 @@ That means that the true underlying trajectory of the pulmonary gradient will ch
 
 ???
 
-By capturing these changes with respect to the intermediate events we can now create dynamic prediction tools that are not only dynamic, in the sense that they can be updated with every new measurement but also adaptive to different scenarios regarding the occurrence of intermediate events in the future such as re-operation in this case.
+By capturing these different trajectories <b>with respect to the occurrence or not</b> of the intermediate event 
+
+we can now create prediction tools that are not only <b>dynamic</b> with respect to time, 
+
+but also <b>adaptive</b> to different scenarios concerning the occurrence of the intermediate event in the future.
 
 ---
 
@@ -457,7 +462,7 @@ By capturing these changes with respect to the intermediate events we can now cr
 
 ???
 
-Finally we also showed via an extensive simulation study, the added benefit in the quality and accuracy of predictions when such intermediate events are incorporated in the model.
+Finally we also showed via an extensive simulation study, that when intermediate events are incorporated in our models the accuracy of the predictions is considerably improved.     
 
 ---
 
@@ -468,7 +473,7 @@ class: section-title, middle, center
 
 ???
 
-PART II deals with multiple-event states and the use of shrinkage for the selection of the association structure between the multi-state and longitudinal processes.
+PART II of the dissertation, deals with multiple-event states and the selection of the association structure between the longitudinal and the multi-state processes.
 
 ---
 
@@ -478,9 +483,12 @@ PART II deals with multiple-event states and the use of shrinkage for the select
 
 ???
 
-Sometimes, as is the case with the heart failure we are interested to study the risk of transitioning to multiple health states of interest. 
+Sometimes, as it is the case with the heart failure dataset, we are interested to study the risk of transitioning between multiple health states of interest. 
 
-In this case for example we are interested to study the transitions from heart failure to death or transplantation, from heart failure to complications and to transplantation or death after experiencing complications.
+In this specific case for example we are interested to study the risk of transitioning: 
+- from heart failure to death or transplantation, 
+- from heart failure to complications 
+- and to transplantation or death after experiencing complications.
 
 ---
 
@@ -490,27 +498,31 @@ In this case for example we are interested to study the transitions from heart f
 
 ???
 
-An intermediate event can still occur. In this case, intervention with an LVAD is considered as an intermediate event and can happen at any point changing the trajectories of the longitudinal markers and the risk for each transition.
+An intermediate event can still occur of course. 
+
+In this case, intervention with an LVAD is considered as an intermediate event and can happen at any point changing the trajectories of the longitudinal markers and the risk for each transition between the states of interest.
 
 ---
 
-# Modeling
+# Total Bilirubin & LVAD
 
 <img src="Static_Images/part2_bilir_fit.png" style = 'float: center; margin-top: 100px;'>
 
 ???
 
-We therefore specify our model accordingly to capture these changes in the longitudinal markers. In this case it seems that LVAD implantation reduces total bilrubin,
+We therefore specify our models accordingly so they can capture these changes and quantify the impact of LVAD in the longitudinal markers. 
+
+In this particular case, LVAD implantation reduces total bilrubin 
 
 ---
 
-# Modeling
+# Creatinine & LVAD
 
 <img src="Static_Images/part2_creat_fit.png" style = 'float: center; margin-top: 100px;'>
 
 ???
 
-Same holds for creatinine which however seems to increase back to the pre-LVAD levels over time.
+same holds for creatinine, but only temporarily as it seems to return back to its pre-LVAD levels over time.
 
 ---
 
@@ -541,9 +553,14 @@ Same holds for creatinine which however seems to increase back to the pre-LVAD l
 
 After modeling the longitudinal outcomes we need to link them to the risk with each transition.
 
-This creates an additional challenge in this case as now the number of parameters that describe the association structure can become high.
+This creates an additional challenge in this case as now the number of parameters that describe the association structure can become quite high.
 
-For example if we have three candidate structures: the value, the rate of change and the area under the longitudinal trajectory, but for two longitudinal outcomes and for each transition, we end up with 18 association parameters in total making the selection of the association structure challenging.
+For example if we have three candidate structures: 
+- the value, the rate of change and the area under the longitudinal trajectory, 
+- but for two longitudinal outcomes and 
+- for each transition, 
+
+we end up with 18 association parameters in total making the selection of the association structure challenging.
 
 ---
 
@@ -553,7 +570,9 @@ For example if we have three candidate structures: the value, the rate of change
 
 ???
 
-We therefore proposed and investigated the use of Bayesian shrinkage priors as a method to automate and aid in the selection of these features.
+We therefore investigated and proposed the use of Bayesian shrinkage priors as a method to automate and help in the selection of the association structure in this case.
+
+These priors give a penalty to weaker signals, shrinking them towards zero, while stronger signals are not penalized.
 
 ---
 
