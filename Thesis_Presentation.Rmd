@@ -551,16 +551,16 @@ same holds for creatinine, but only temporarily as it seems to return back to it
 
 ???
 
-After modeling the longitudinal outcomes we need to link them to the risk with each transition.
+After modeling the longitudinal outcomes we need to link them to the risk for each transition.
 
 This creates an additional challenge in this case as now the number of parameters that describe the association structure can become quite high.
 
 For example if we have three candidate structures: 
 - the value, the rate of change and the area under the longitudinal trajectory, 
 - but for two longitudinal outcomes and 
-- for each transition, 
+- for three transitions, 
 
-we end up with 18 association parameters in total making the selection of the association structure challenging.
+we end up with 18 association parameters in total making the selection of the most important ones, difficult.
 
 ---
 
@@ -570,9 +570,10 @@ we end up with 18 association parameters in total making the selection of the as
 
 ???
 
-We therefore investigated and proposed the use of Bayesian shrinkage priors as a method to automate and help in the selection of the association structure in this case.
+To address this challenge we investigated and proposed the use of Bayesian shrinkage priors.
 
-These priors give a penalty to weaker signals, shrinking them towards zero, while stronger signals are not penalized.
+These priors impose a penalty to weaker signals, shrinking them towards zero, while stronger signals are not penalized which can help to identufy the most relevant parameters for the specification of the association structure.
+
 
 ---
 
@@ -583,7 +584,7 @@ class: section-title, middle, center
 
 ???
 
-In PART III of the dissertation we looked at missing data in this context
+In PART III of the dissertation we looked at missing data in the context of the joint modeling framework.
 
 ---
 
@@ -594,7 +595,7 @@ In PART III of the dissertation we looked at missing data in this context
 
 ???
 
-In follow-up studies ideally we want to have complete information for every subject included in the study.
+In longitudinal studies ideally we want to have complete information for every subject included in the study.
 
 
 ---
@@ -606,9 +607,9 @@ In follow-up studies ideally we want to have complete information for every subj
 
 ???
 
-However, this rarely happens as patients will drop-out from a study for many reasons such as moving to another country or due to their own decision because of side-effects for example.
+However, this is rarely the case in practice as patients will drop-out from a study for many reasons such as moving to another country or due to their own decision because of side-effects for example.
 
-This means that we only have partial information at hand instead of the full information.
+This leaves us with partial information at hand instead of the full information.
 
 ---
 
@@ -618,9 +619,11 @@ This means that we only have partial information at hand instead of the full inf
 
 ???
 
-Unfortunately, as the missing data can never be recovered we have to rely on plausible assumptions regarding the reasons that data are missing.
+Unfortunately, as the missing data can never be recovered we have to rely on plausible assumptions regarding the reasons that they are missing.
 
-Different assumptions will lead to different conclusions and as we can never be sure which assumption is correct we have to explore all possibilities with sensitivity analysis.
+Different assumptions will lead to different conclusions. 
+
+Unfortunately, as we can never be sure which assumption is true we have to explore all possibilities with sensitivity analyses.
 
 ---
 
@@ -631,13 +634,11 @@ Different assumptions will lead to different conclusions and as we can never be 
 
 ???
 
-In this context we used joint models for longitudinal and time-to-event data as a tool for sensitivity analysis.
+In this context we used joint models for longitudinal and time-to-event data as a tool for such sensitivity analysis.
 
 We discussed how these models can be used to investigate different scenarios for the causes of missingness on the subject-specific level.
 
 Our results indicated minimal sensitivity in parameter estimates and standard deviations but differences in subject-specific predictions.
-
-This means that while our inference on the population level is more robust across different assumptions on the causes of missingness, this does not hold when we are interested in predictions for each individual. 
 
 ---
 
@@ -669,9 +670,11 @@ Finally, for our methods to be useful and most importantly accessible in practic
 
 ???
 
-JMbayes2, our latest work is
+JMbayes2, which is our latest package can be used to apply the extensions I discussed today and is
 
-available for download from The Comprehensive R Archive Network and GitHub. It also has its own website with detailed documentation and tutorials to make it more accessible to everyone.
+available for download from The Comprehensive R Archive Network and GitHub. 
+
+It also has its own website with detailed documentation and tutorials to make it more accessible to everyone.
 
 ---
 
@@ -680,7 +683,7 @@ class: title-slide
 
 ???
 
-Thank you for your attention. I give the word back to you now, Sir/Madam Rector.
+Thank you for your attention. I give the word back to you, Sir/Madam Rector.
 
 <!-- # PART III: MISSING DATA -->
 
