@@ -572,7 +572,7 @@ we end up with 18 association parameters in total making the selection of the mo
 
 To address this challenge we investigated and proposed the use of Bayesian shrinkage priors.
 
-These priors impose a penalty to weaker signals, shrinking them towards zero, while stronger signals are not penalized which can help to identufy the most relevant parameters for the specification of the association structure.
+These priors impose a penalty to weaker signals, shrinking them towards zero, while stronger signals are not penalized which can help to identify the most relevant parameters for the specification of the association structure.
 
 
 ---
@@ -621,7 +621,7 @@ This leaves us with partial information at hand instead of the full information 
 
 Unfortunately, the missing data can never be fully recovered and we have to rely on assumptions regarding the reasons that they are missing.
 
-Different assumptions for the causes of missingness will lead to different conclusions as certain causes of missingness are more difficult to deal with than others. 
+Different assumptions for the causes of missingness will lead to different conclusions while certain causes of missingness are more difficult to deal with than others. 
 
 Unfortunately, since we can never be sure which assumption is true we have to explore all possibilities with sensitivity analyses.
 
